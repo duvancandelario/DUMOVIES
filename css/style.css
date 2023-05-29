@@ -56,3 +56,8 @@ header nav a{
     /*Asignamos un margen de 20px entre los elementos*/
     margin-right: 20px;
 }
+
+header nav a:hover,
+header nav a.inicio_active{
+    color: #FFF;
+}
