@@ -72,7 +72,9 @@ header nav a.inicio_active{
     /*Colocamos ahora medidas en em y rem importante para el diseño responsive; colocando el equivalente con la formula 650/16 pixeles del font-size*/
     min-height: 40.62em;
     color: #fff;
-    background: url(../assets/mario.jpg);
+
+    /*linear gradient es un fondo arriba de la imagen*/
+    background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, .25) 100%), url(../assets/atlantis.jpg);
     /*Acomodamos la imagen central tanto horizontal como vertical*/
     background-position: center center;
 
