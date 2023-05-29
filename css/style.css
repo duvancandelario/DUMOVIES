@@ -78,8 +78,21 @@ header nav a.inicio_active{
     /*Acomodamos la imagen central tanto horizontal como vertical*/
     background-position: center center;
 
+    /*Agregamos un background-size: cover para que la imagen abarque un 100% disponible y no deforme cuando cambie de tamaño*/
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
 
-    
+}
 
+.pelicula-home .container{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
 
+.pelicula-home .tituloPeliculaPrincipal{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0,4em;
 }
