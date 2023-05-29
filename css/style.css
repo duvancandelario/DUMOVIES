@@ -11,3 +11,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    /*Asignamos la variable anterior para proporcionar un color de fondo a nuestro sitio web*/
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*CREAMOS UN CONTENEDOR PARA INCLUIR NUESTRO HEADER Y ASIGNAR BORDES EN LA IZQUIERA Y DERECHA*/
+.container{
+    /*El ancho de va a tomar el 90% y con el margin en auto tomara los 5% a la izquierda y 5% a la derecha
+    para un total del 10% restante*/
+    width: 90%;
+    margin: auto;
+}
