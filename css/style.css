@@ -61,3 +61,23 @@ header nav a:hover,
 header nav a.inicio_active{
     color: #FFF;
 }
+
+
+/*--------- PELICULA PRINCIPAL --------*/
+
+.pelicula-home{
+    font-size: 16px;
+
+    /*Colocamos una altura minima de 650px*/
+    /*Colocamos ahora medidas en em y rem importante para el diseño responsive; colocando el equivalente con la formula 650/16 pixeles del font-size*/
+    min-height: 40.62em;
+    color: #fff;
+    background: url(../assets/mario.jpg);
+    /*Acomodamos la imagen central tanto horizontal como vertical*/
+    background-position: center center;
+
+
+    
+
+
+}
