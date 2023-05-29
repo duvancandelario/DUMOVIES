@@ -1,0 +1,13 @@
+/*CREAMOS NUESTRAS VARIABLES EN CSS PARA REUTILIZAR*/
+
+:root{
+    --rojo: #E50914;
+    --fondo: #141414;
+}
+
+/*Quitamos los estilos por defecto que genera nuestro sitio web*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
