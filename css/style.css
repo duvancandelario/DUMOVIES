@@ -25,3 +25,34 @@ body{
     width: 90%;
     margin: auto;
 }
+
+header{
+    /*Asignamos un padding arriba y abajo para ubicar bien nuestro contenedor de nuestro header
+    siendo 30px arriba y abajo; 0 izquierda y derecha*/
+    padding: 30px 0;
+}
+
+header .container{
+    /*Asignamos display flex para tener mas herramientas de control y visualizacion de nuestro contenedor y sus items*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo_sitioweb{
+    font-family: 'Bebas Neue', cursive;
+    /*Quitamos lo demasiado negrita*/
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+
+header nav a{
+    /*Asignamos color cercano al blanco*/
+    color: #AAA;
+    /*Quitamos lo subrayado de nuestras etiquetas a href*/
+    text-decoration: none;
+    /*Asignamos un margen de 20px entre los elementos*/
+    margin-right: 20px;
+}
